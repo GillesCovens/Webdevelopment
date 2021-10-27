@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana;
+    background-color: silver;
+    color: darkblue;
+}
+h1
+{
+    font-variant: all-small-caps;
+    background-color: red;
+}
+a:hover
+{
+    border-style: solid;
+
+}
+
+a{
+
+    background: transparent url(foto/hyperlink.png) no-repeat left center;
+    padding-left: 20px ;
+}
+
+.stippeltesrand
+{
+    border-style: dotted;
+    border-width: 1px;
+}
