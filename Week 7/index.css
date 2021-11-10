@@ -1,0 +1,48 @@
+body
+{
+    margin: auto;
+    width: 1200px;
+}
+
+.header
+{
+    background-image: url("foto's/header.jpg");
+    height: 100px;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.navbar
+{
+    background-color: grey;
+
+
+}
+nav a
+{
+    color: green;
+    font-family: Tahoma;
+    padding-left: 10px
+}
+
+article h1
+{
+    font-family: Tahoma;
+    font-size: 25px;
+    color: gray;
+    text-decoration-line: underline;
+
+}
+article
+{
+    background-color: lightgray;
+    padding: 5px;
+    margin: 10px;
+}
+img
+{
+    background-size: cover;
+    background-position: bottom;
+}
