@@ -1,0 +1,143 @@
+
+@media screen and (max-width: 771px)
+{
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        padding: 10px;
+
+    }
+    main .block
+    {
+
+
+        padding: 20px;
+        margin: 10px ;
+        font-size: 30px;
+        text-align: center;
+    }
+    .block.block2
+    {
+        background-color: purple;
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+    .block.block1
+    {
+        background-color: pink;
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+    .block.block3
+    {
+        background-color: mediumpurple;
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+    .block.block4
+    {
+        background-color: lightgreen;
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
+}
+
+
+
+
+@media screen and (min-width: 772px) and (max-width: 991px)
+{
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        padding: 10px;
+
+    }
+    main .block
+    {
+
+
+        padding: 20px;
+        margin: 10px ;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .block.block1
+    {
+        background-color: purple;
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+
+    .block.block3
+    {
+        background-color: purple;
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+    .block.block2
+    {
+        background-color: yellow;
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+    .block.block4
+    {
+        background-color: green;
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 2fr ;
+        padding: 10px;
+
+    }
+    main .block
+    {
+        background-color: white;
+        padding: 20px;
+        margin: 10px ;
+        font-size: 30px;
+        text-align: center;
+    }
+    .block.block1{
+
+        background-color: purple;
+        grid-column: 1/6;
+        grid-row: 1/2;
+
+    }
+    .block.block2{
+        background-color: cornflowerblue;
+        grid-column: 1/6;
+        grid-row: 2/3;
+
+
+    }
+
+    .block.block3, .block.block4
+    {
+
+        grid-row: 3/4;
+
+    }
+
+    .block.block4
+    {
+        background-color: green;
+    }
+    .block.block3
+    {
+        background-color: cornflowerblue;
+    }
+
+
+
+}
